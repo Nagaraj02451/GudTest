@@ -1,0 +1,91 @@
+
+.navigation-menu {
+    /* position: relative; */
+    
+    position: absolute;
+    /* top: ; */
+    overflow: hidden;
+    z-index: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    width: 100%;
+    /* text-align: center; */
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: stretch;
+    padding: var(--side-padding);
+    background-color: #fff;
+}
+
+.navigation-menu-menu {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    padding: 8rem 5.2rem 11rem 13.3rem;
+    background-color: #5E5E5E;
+    opacity: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .navigation-menu-menu {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+        padding-left: 0px;
+    }
+}
+
+
+.navigation-menu-menu .menu {
+    list-style: none;
+}
+
+.navigation-menu-menu .menu > li {
+    /* text-align: center; */
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    margin-left: -10px;
+    /* border: 1px solid red; */
+    opacity: 0;
+    visibility: hidden;
+    /* -webkit-transform: translateY(25%); */
+    /* transform: translateY(25%); */
+    margin-top: 2.1rem;
+}
+
+.navigation-menu-menu .menu > li > a {
+    font-size: 30px;
+  font-family:Messinasemi;
+    color: #fff;
+    letter-spacing: -0.1rem;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    display: block;
+    width: 90%;
+}
+
+@media (max-width: 500px) {
+    .navigation-menu-menu .menu > li > a {
+        font-size: 30px;
+        text-decoration: none;
+    }
+}

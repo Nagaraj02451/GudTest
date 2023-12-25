@@ -1,0 +1,305 @@
+.heroRoom{
+       /* margin-bottom: px; */
+       position: sticky;
+       top: 0;
+       z-index: -1;
+}
+.thirdhomejug{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: -70px;
+}
+.ghcgfh{
+    color: #000;
+font-family: Balletica;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 57px; 
+}
+.lanRoom{
+    width: 100%;
+    height:55vh;
+}
+.herocenterRoom{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+width: 100%;
+height: 52vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    border-radius: 15px;
+    background: #fff;
+    /* border: 1px solid red; */
+}
+.hgfvjbvh{
+    color: #000;
+font-family: Balletica;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 57px; 
+}
+#headsubRoom{
+margin-left: 4.4%;
+color: #000;
+font-family: MessinaRegu;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+/* border: 1px solid red; */
+width: 42%;
+}
+.jikoko{
+    color: #000;
+    font-family: MessinaRegu;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.ghcgfh{
+margin-left: 4.4%;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+}
+.hihihi{
+    color: #000;
+    font-family: MessinaRegu;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Onkoko{
+    margin-top: 8px;
+}
+.hujhuj{
+    color: #000;
+    font-family: MessinaRegu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+.HeadOneLastMaster{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* margin-top: 80px; */
+    width: 100%;
+    height: auto;
+    /* color: black; */
+}
+.HeadOneMaster{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* margin-top: 80px; */
+    width: 100%;
+    height: auto;
+    /* color: black; */
+}
+.HeadTwoMaster{
+      /* border: 1px solid red; */
+      width: 90%;
+      /* height: auto; */
+      /* height: 123vh; */
+      color: white;
+      margin-top: 40px;
+}
+.HeadTwoMasterkjkhgb{
+      /* border: 1px solid red; */
+      width: 90%;
+      /* height: 100vh; */
+      color: white;
+      margin-top: -50px;
+}
+
+.FirstmasterSing{
+    width: 32%;
+    height: 600px;
+    /* border: 1px solid red; */
+    /* background: #D9D9D9; */
+}
+.SecondMasterSing{
+    width: 66%;
+    height: 500px;
+    /* border: 1px solid red; */
+    /* background: #D9D9D9; */
+}
+.Firstmaster{
+    width: 30%;
+    height: 650px;
+    /* border: 1px solid red; */
+    /* background: #D9D9D9; */
+}
+.SecondMaster{
+    width: 65%;
+    height: 500px;
+    /* border: 1px solid red; */
+    /* background: #D9D9D9; */
+}
+.ersfjhmgbu{
+    margin-top:5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+.guonbjnbg{
+    width: 35%;
+    /* border: 1px solid red; */
+}
+.guonbjnbgjhmgfv{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.juykjgv{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+.Firstmasterasgr{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    background: #D9D9D9;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.Firstmasterasgr img{
+    width: 100%;
+    height: 100%;
+}
+.Firstmasterasgr:hover img{
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+.nhgfchmgjv{
+    height: 5vh;
+    width: 100%;
+    background-color: #fff;
+}
+@media (max-width : 1050px) {
+    .sdfae{
+        margin-top: 80px;
+    }
+    .thirdhomejug{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: inline;
+    justify-content: space-between;
+    color: white;
+    margin-top: 70px;
+}
+    .juykjgv{
+        display: inline;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        height: auto;
+    }
+    .SecondMaster{
+        width: 100%;
+        /* margin-top: 60px; */
+        /* height: 100vh; */
+        /* border: 1px solid red; */
+        /* background: #D9D9D9; */
+    }
+    .vhgjfyvgjhjg{
+        margin-top: 70px;
+        /* border: 1px solid red; */
+
+    }
+    .hgfvjbvh{
+        margin-top: 50px;
+    }
+    .Firstmaster{
+        width: 100%;
+        height: auto;
+        /* height: 600px; */
+        /* border: 1px solid red; */
+        /* background: #D9D9D9; */
+    }
+    .hjvkjkbjbk{
+        margin-top: 80px;
+    }
+    .hjmbvmjhkji{
+        margin-top: 40px;
+    }
+    .hvjvhjkjglb{
+        /* border: 1px solid red; */
+        margin-top: -100px;
+        /* margin-bottom: 20px; */
+    }
+    .guonbjnbg{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .guonbjnbgjhmgfv{
+        width: 100%;
+        margin-top: 50px;
+        /* border: 1px solid red; */
+    }
+    .nhbmfgvhjv{
+        margin-top: 40px;
+        /* border: 1px solid red; */
+
+    }
+    .FirstmasterSing{
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        /* background: #D9D9D9; */
+    }
+    .SecondMasterSing{
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid red; */
+        background: #D9D9D9;
+    }
+   
+}
+
+@media (max-width : 500px) {  
+
+    .Firstmaster{
+        width: 100%;
+        height: 500px;
+    }
+    .Firstmasterasgr{
+        height: 380px;
+    }
+    #headsubRoom{
+width: 92%;
+        margin-left: 4.4%;
+        color: #000;
+        font-family: MessinaRegu;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; 
+        }
+        .ghcgfh{
+            color: #000;
+        font-family: Balletica;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 57px; 
+        }
+}
